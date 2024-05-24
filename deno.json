@@ -1,5 +1,6 @@
 {
   "name": "@fresh/ui",
+  "lock": false,
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
