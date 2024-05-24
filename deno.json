@@ -9,8 +9,13 @@
     "jsxImportSource": "preact"
   },
   "imports": {
+    "@std/assert": "jsr:@std/assert@^0.225.3/",
+    "@tailwindcss": "npm:tailwindcss@^3.4.3/",
     "preact": "npm:preact@^10.22.0",
-    "tailwindcss": "npm:tailwindcss@^3.4.3",
-    "@tailwindcss/": "npm:tailwindcss@^3.4.3/"
+    "tailwindcss": "npm:tailwindcss@^3.4.3"
+  },
+  "fmt": {
+    "singleQuote": true,
+    "semiColons": false
   }
 }

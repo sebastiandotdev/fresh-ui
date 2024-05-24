@@ -1,1 +1,1 @@
-export const Button = () => <button>Click me</button>;
+export * from './button/index.tsx'
