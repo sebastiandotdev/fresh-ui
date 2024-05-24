@@ -1,0 +1,15 @@
+{
+  "name": "@fresh/ui",
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "preact"
+  },
+  "imports": {
+    "preact": "npm:preact@^10.22.0",
+    "tailwindcss": "npm:tailwindcss@^3.4.3",
+    "@tailwindcss/": "npm:tailwindcss@^3.4.3/"
+  }
+}
