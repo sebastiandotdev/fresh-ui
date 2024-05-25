@@ -3,7 +3,8 @@
   "version": "0.0.1-alpha-1",
   "lock": false,
   "tasks": {
-    "dev": "deno run src/mod.ts"
+    "dev": "deno run src/mod.ts",
+    "test": "deno test -A --parallel components/ tools/"
   },
   "compilerOptions": {
     "jsx": "precompile",
