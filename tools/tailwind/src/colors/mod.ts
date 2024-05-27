@@ -1,0 +1,3 @@
+/**
+ * @file colors/mod.ts
+ */
