@@ -1,10 +1,10 @@
-import plugin from '@tailwindcss/plugin'
+import plugin from 'tailwindcss/plugin.js'
 
 export function pluginCreator() {
   return plugin(({ addBase }) => {
     addBase({
       '*': {
-        boxSizing: 'border-box',
+        'background-color': '#202020',
       },
     })
   })

@@ -10,5 +10,8 @@
   },
   "cSpell.words": [
     "freshui"
+  ],
+  "css.customData": [
+    ".vscode/tailwind.json"
   ]
 }
