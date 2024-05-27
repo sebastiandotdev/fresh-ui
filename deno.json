@@ -3,7 +3,7 @@
   "tasks": {
     "dev:playground": "deno task --cwd=./apps/playground start",
     "dev": "deno task --cwd=./apps/web start",
-    "test:components": "deno run -A ./bin/run_tests_components.ts",
+    "test:components": "deno run -A ./tools/run_tests_components.ts",
     "test:tailwind": "deno task --cwd=./tools/tailwind test",
     "test:core": "deno task --cwd=./src/core test",
     "test:utils": "deno task --cwd=./tools/utils test",
