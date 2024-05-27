@@ -3,5 +3,8 @@
   "version": "0.0.1-alpha-1",
   "exports": {
     ".": "./mod.ts"
+  },
+  "imports": {
+    "tailwindcss": "npm:tailwindcss@^3.4.3"
   }
 }

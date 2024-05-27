@@ -4,6 +4,7 @@
   "lock": false,
   "tasks": {
     "dev": "deno run src/mod.ts",
+    "playground": "deno task --cwd=./apps/playground start",
     "test": "deno test -A --parallel components/ tools/"
   },
   "compilerOptions": {
