@@ -5,6 +5,9 @@
     "jsx": "precompile",
     "jsxImportSource": "preact"
   },
+  "tasks": {
+    "test": "deno test -A --parallel src/*"
+  },
   "exclude": ["**/tmp/*", "*/tests_OLD/**"],
   "publish": {
     "include": [
