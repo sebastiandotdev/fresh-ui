@@ -5,9 +5,6 @@
     "jsx": "precompile",
     "jsxImportSource": "preact"
   },
-  "tasks": {
-    "test": "deno test -A --parallel src/*"
-  },
   "exclude": ["**/tmp/*", "*/tests_OLD/**"],
   "publish": {
     "include": [
@@ -19,7 +16,6 @@
     "exclude": ["**/*_test.*", "src/__OLD/**", "*.todo"]
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@^0.225.3/",
     "@fresh-ui/tailwind": "../../tools/tailwind/mod.ts",
     "preact": "npm:preact@^10.22.0"
   }

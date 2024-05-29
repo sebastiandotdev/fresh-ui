@@ -1,9 +1,11 @@
 /.idea/
 
 /node_modules
+/coverage
 
 .env
 *.orig
 *.pyc
 *.swp
 *.lock
+*.lcov
