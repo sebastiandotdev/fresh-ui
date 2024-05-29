@@ -14,7 +14,9 @@
     "exclude": ["**/*_test.*", "src/__OLD/**", "*.todo"]
   },
   "imports": {
+    "@fresh-ui/utils": "../utils/src/mod.ts",
+    "color2k": "npm:color2k@^2.0.3",
     "tailwindcss": "npm:tailwindcss@^3.4.3",
-    "@fresh-ui/utils": "../utils/src/mod.ts"
+    "flat": "https://deno.land/x/flatten@1.1.0/mod.ts"
   }
 }
