@@ -13,12 +13,8 @@
     ],
     "exclude": ["**/*_test.*", "src/__OLD/**", "*.todo"]
   },
-  "tasks": {
-    "test": "deno test -A --parallel src/*"
-  },
   "imports": {
     "tailwindcss": "npm:tailwindcss@^3.4.3",
-    "@std/assert": "jsr:@std/assert@^0.225.3/",
     "@fresh-ui/utils": "../utils/src/mod.ts"
   }
 }
